@@ -5,9 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://vinicius:vinicius@viniciusmonteiro-jeidh.gcp.mongodb.net/omnistack9?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+mongoose.connect('mongodb+srv://...
 });
 
 app.use(cors({  }));
